@@ -1,0 +1,36 @@
+.layout {
+  max-width: 1200px;
+  min-height: 800px;
+  margin: auto;
+}
+.form {
+  padding-top: 30px;
+  display: flex;
+  gap: 10px;
+  flex-direction: row;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 2.5em;
+  font-weight: bold;
+  text-align: center;
+}
+
+.warp {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+}
+.list {
+  border-radius: 10px;
+  border: 1px solid red;
+  width: 100px;
+  height: 70px;
+  margin: 10px;
+  padding: 20px;
+}
